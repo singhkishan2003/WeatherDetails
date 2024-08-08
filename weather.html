@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+<div class="container">
+    <div class="change-mode">
+        <img src="moon.png" alt="light mode sun" id="icon">
+    </div>
+    <div class="weather-container">
+        <div class="temp">
+            <p class="tempchange">20 </p><sup></sup>
+        </div>
+        <div class="time-location">
+            <p class="data">Delhi</p>
+            <p class="time">12:58 - Monday 2022-09-26</p>
+        </div>
+        <div class="condition">
+            <p class="wheather">Mist</p>
+        </div>
+    </div>
+
+    <nav>
+        <form id="myform">
+            <input type="text" placeholder="Search location" id="search-area">
+            <button type="submit" class="btn">Search</button>
+        </form>
+    </nav>
+</div>
+<script src="weather.js"></script>
+</body>
+</html>
